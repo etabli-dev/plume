@@ -1,0 +1,19 @@
+import SwiftUI
+
+struct RootView: View {
+    let dictionary: TeXDictionary?
+    let loadError: String?
+
+    var body: some View {
+        TabView {
+            DictionaryView(dictionary: dictionary, loadError: loadError)
+                .tabItem { Label("Dictionary", systemImage: "magnifyingglass") }
+            CheatsheetView(dictionary: dictionary)
+                .tabItem { Label("Cheatsheet", systemImage: "rectangle.stack") }
+            FavoritesView(dictionary: dictionary)
+                .tabItem { Label("Favorites", systemImage: "star") }
+            SettingsView()
+                .tabItem { Label("Settings", systemImage: "gear") }
+        }
+    }
+}
