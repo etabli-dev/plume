@@ -1,0 +1,16 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1024" height="1024" fill="#28A745"/>
+  <g id="glyph" fill="none" stroke="#FFFFFF" stroke-width="36"
+     stroke-linecap="round" stroke-linejoin="round">
+    <!-- Quill nib pointing down-left -->
+    <!-- Outer nib shape: a tall isoceles teardrop -->
+    <path d="M 380 290
+             L 740 290
+             L 540 760
+             Z"/>
+    <!-- Center slit -->
+    <line x1="560" y1="320" x2="540" y2="700"/>
+    <!-- Bottom point/tail -->
+    <line x1="540" y1="760" x2="500" y2="820"/>
+  </g>
+</svg>

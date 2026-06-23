@@ -1,0 +1,1 @@
+Etabli Plume is a categorized reference and snippet picker for LaTeX typesetting commands: commands, Greek letters, math operators, formatting, environments and bibliography, with a preview pane and favorites. Offline-only, no dependencies. (Not affiliated with the LaTeX Project or TeX.)
