@@ -1,18 +1,21 @@
-# Etabli Plume
+# Établi Plume
 
 > A fast offline reference for typesetting commands.
 
-`iOS` `Android` · Apache-2.0 · Part of the [Etabli Suite](https://github.com/etabli-dev)
+`iOS` `Android` · Apache-2.0 · Part of the [Établi Suite](https://github.com/etabli-dev)
 
 > **Note:** Renamed from EtabliTeX to avoid implying affiliation with TeX/LaTeX (whose names are governed by Knuth's TeX license and the LPPL).
 
-Etabli Plume is a categorized reference and snippet picker for LaTeX typesetting commands: commands, Greek letters, math operators, formatting, environments and bibliography, with a preview pane and favorites. Offline-only, no dependencies. (Not affiliated with the LaTeX Project or TeX.)
+Établi Plume is a categorized reference and snippet picker for LaTeX typesetting commands: commands, Greek letters, math operators, formatting, environments and bibliography, with a preview pane and favorites. Offline-only, no dependencies. (Not affiliated with the LaTeX Project or TeX.)
 
 ## Availability
 
-- **App Store (iOS):** available.
-- **Google Play:** available.
-- **F-Droid (main repo):** built from this repo's `/android` source.
+Établi Plume is **under active development**. There are no App Store, Google Play or F-Droid releases yet.
+
+- **Android:** install the current **development build** as a signed **APK** from **[GitHub Releases](../../releases)**.
+- **App Store (iOS):** planned — not yet available.
+- **Google Play:** planned — not yet available.
+- **F-Droid:** planned — not yet available.
 
 ## Privacy
 
@@ -32,15 +35,15 @@ Both platforms are one product, sharing the Coder Design System tokens.
 
 iOS: SwiftUI. Android: Compose, bundled dictionary JSON
 
-**Status:** Complete on both platforms
+**Status:** In active development — not yet released; dev builds available as a signed APK via [GitHub Releases](../../releases).
 
 ## Support development
 
-- 💚 **[Liberapay](https://liberapay.com/rabanheller/)** — recurring, 0% commission, shown on F-Droid.
+- 💚 **[Liberapay](https://liberapay.com/rabanheller/)** — recurring, 0% commission, to be shown on the F-Droid listing once published.
 - ☕ [Buy Me a Coffee](https://buymeacoffee.com/rabanheller) — one-off tip (also the in-app link on iOS/Android).
 
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
 
-Copyright 2026 Raban Heller.
+Copyright 2026 R. Heller.

@@ -44,6 +44,7 @@ No network activity. Content and search are fully local.
 
 | Channel | App |
 |---------|-----|
-| App Store (iOS) · Google Play (Android) | Etabli Plume |
-| F-Droid — main repository | Etabli Plume |
+| Android (APK) — development build via [GitHub Releases](https://github.com/etabli-dev/etabli-plume/releases) | Établi Plume |
+| App Store (iOS) · Google Play (Android) | planned — not yet available |
+| F-Droid — main repository | planned — not yet available |
 | Source code | [`etabli-dev/etabli-plume`](https://github.com/etabli-dev/etabli-plume) |

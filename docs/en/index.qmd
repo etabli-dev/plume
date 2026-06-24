@@ -1,5 +1,5 @@
 ---
-title: "Etabli Plume"
+title: "Établi Plume"
 sidebar: en
 ---
 
@@ -9,7 +9,7 @@ sidebar: en
 
 > A fast, offline reference for typesetting commands.
 
-Etabli Plume is a categorised reference and snippet picker for LaTeX commands: commands, Greek letters, math operators, formatting, environments and bibliography — with a preview pane and favourites. Fully offline, no external dependencies. App ID `com.raban.etabli.plume`.
+Établi Plume is a categorised reference and snippet picker for LaTeX commands: commands, Greek letters, math operators, formatting, environments and bibliography — with a preview pane and favourites. Fully offline, no external dependencies. App ID `com.raban.etabli.plume`.
 
 ![Plume — categories list on Android.](../_screens/android-categories.png){width=320}
 
@@ -32,10 +32,14 @@ No analytics, no third-party SDKs. The app runs fully offline; all content is em
 
 ## Installation
 
-| Platform | Source |
-|----------|--------|
-| iOS      | App Store |
-| Android  | Google Play and F-Droid (main repository) |
+Établi Plume is **under active development**. There are no App Store, Google Play or F-Droid releases yet.
+
+| Channel | Status |
+|---------|--------|
+| Android (APK) | **Development build** via [GitHub Releases](https://github.com/etabli-dev/etabli-plume/releases) |
+| App Store (iOS) | planned — not yet available |
+| Google Play | planned — not yet available |
+| F-Droid | planned — not yet available |
 
 Details: see [Getting Started](getting-started.qmd).
 

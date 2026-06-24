@@ -1,5 +1,5 @@
 ---
-title: "Etabli Plume"
+title: "Établi Plume"
 sidebar: fr
 ---
 
@@ -9,7 +9,7 @@ sidebar: fr
 
 > Une référence rapide, hors ligne, pour les commandes de composition.
 
-Etabli Plume est une référence catégorisée et un sélecteur de snippets pour les commandes LaTeX : commandes, lettres grecques, opérateurs mathématiques, mise en forme, environnements et bibliographie — avec un panneau d'aperçu et des favoris. Entièrement hors ligne, sans dépendance externe. ID d'appli `com.raban.etabli.plume`.
+Établi Plume est une référence catégorisée et un sélecteur de snippets pour les commandes LaTeX : commandes, lettres grecques, opérateurs mathématiques, mise en forme, environnements et bibliographie — avec un panneau d'aperçu et des favoris. Entièrement hors ligne, sans dépendance externe. ID d'appli `com.raban.etabli.plume`.
 
 ![Plume — liste des catégories sur Android.](../_screens/android-categories.png){width=320}
 
@@ -32,10 +32,14 @@ Aucun outil d'analyse, aucun SDK tiers. L'appli fonctionne entièrement hors lig
 
 ## Installation
 
-| Plateforme | Distribution |
-|------------|--------------|
-| iOS        | App Store |
-| Android    | Google Play et F-Droid (dépôt principal) |
+Établi Plume est **en cours de développement actif**. Il n'existe pas encore de version App Store, Google Play ou F-Droid.
+
+| Canal | Statut |
+|-------|--------|
+| Android (APK) | **Version de développement** via [GitHub Releases](https://github.com/etabli-dev/etabli-plume/releases) |
+| App Store (iOS) | prévu — pas encore disponible |
+| Google Play | prévu — pas encore disponible |
+| F-Droid | prévu — pas encore disponible |
 
 Détails : voir [Premiers pas](getting-started.qmd).
 

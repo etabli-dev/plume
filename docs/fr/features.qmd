@@ -44,6 +44,7 @@ Aucune activité réseau. Contenu et recherche sont entièrement locaux.
 
 | Canal | App |
 |-------|-----|
-| App Store (iOS) · Google Play (Android) | Etabli Plume |
-| F-Droid — dépôt principal | Etabli Plume |
+| Android (APK) — version de développement via [GitHub Releases](https://github.com/etabli-dev/etabli-plume/releases) | Établi Plume |
+| App Store (iOS) · Google Play (Android) | prévu — pas encore disponible |
+| F-Droid — dépôt principal | prévu — pas encore disponible |
 | Code source | [`etabli-dev/etabli-plume`](https://github.com/etabli-dev/etabli-plume) |
