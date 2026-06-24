@@ -11,7 +11,7 @@ sidebar: fr
 
 Établi Plume est une référence catégorisée et un sélecteur de snippets pour les commandes LaTeX : commandes, lettres grecques, opérateurs mathématiques, mise en forme, environnements et bibliographie — avec un panneau d'aperçu et des favoris. Entièrement hors ligne, sans dépendance externe. ID d'appli `com.raban.etabli.plume`.
 
-![Plume — liste des catégories sur Android.](../_screens/android-categories.png){width=320}
+![Plume — le Dictionnaire sur Android.](../_screens/0.1.0/01-dictionary.png){width=320}
 
 > Plume est le renommage volontaire de l'ancien **EtabliTeX**. Aucune affiliation avec le LaTeX Project ou TeX ; les noms TeX/LaTeX relèvent de la TeX License de Knuth et de la LPPL.
 

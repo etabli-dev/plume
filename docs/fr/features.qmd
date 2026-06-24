@@ -3,48 +3,42 @@ title: "Fonctionnalités"
 sidebar: fr
 ---
 
-Plume est pensé comme un outil de consultation : catégories, recherche, aperçu, favoris — rien de plus pour l'usage quotidien.
+Une visite guidée d'Établi Plume v0.1.0, illustrée par de vraies captures d'écran de la version exécutée sur un appareil Android. Plume est une référence hors ligne et un sélecteur de snippets pour les commandes de composition : cherchez une commande, voyez le symbole rendu, copiez-le et marquez d'une étoile celles que vous utilisez souvent. Sans compte, sans réseau.
 
-![Liste des catégories avec navigation hiérarchique.](../_screens/android-categories.png){width=320}
+## Dictionnaire
 
-## Catégories de contenu
+L'appli s'ouvre sur le **Dictionnaire** — chaque commande avec son glyphe rendu, cherchable depuis la barre du haut. Le fil d'Ariane indique combien d'entrées correspondent (par exemple, `123 of 123`). Chaque carte porte une commande (`\alpha`), son nom, le symbole rendu (α), sa catégorie et une étoile pour la mettre en favori. Tapez dans **search commands…** pour filtrer la liste en direct.
 
-| Catégorie | Exemples |
-|-----------|----------|
-| **Commandes** | `\textbf`, `\emph`, `\section`, `\label`, `\ref`. |
-| **Lettres grecques** | `\alpha`, `\beta`, `\Gamma`, `\Omega`. |
-| **Opérateurs mathématiques** | `\sum`, `\int`, `\prod`, `\lim`, `\partial`. |
-| **Mise en forme** | Graisses, familles, tailles, listes. |
-| **Environnements** | `equation`, `align`, `itemize`, `enumerate`, `figure`, `table`. |
-| **Bibliographie** | `\cite`, `\bibliography`, `\bibliographystyle` et champs BibTeX usuels. |
+![Le Dictionnaire : chaque commande avec son symbole rendu.](../_screens/0.1.0/01-dictionary.png){width=320}
 
-## Modules
+## Filtre par catégorie
 
-| Zone | Fonction |
-|------|----------|
-| **Catégories** | Liste hiérarchique des contenus. |
-| **Aperçu** | Commande, description, exemple d'usage — mis en forme lisible même pour les commandes longues. |
-| **Favoris** | Les entrées marquées restent en tête, dans leur propre vue. |
-| **Recherche** | Recherche plein texte sur toutes les entrées. |
-| **Paramètres** | Thème (Clair/Sombre/Système), taille de police. |
+Les puces sous la zone de recherche filtrent par catégorie — **all · greek letters · math operators · math relations · …** — pour parcourir une famille à la fois. Ici la liste est réduite aux **lettres grecques**, ne laissant à l'écran que `\alpha`, `\beta`, `\gamma` et consorts.
 
-## Flux de travail
+![Le Dictionnaire filtré sur la catégorie des lettres grecques.](../_screens/0.1.0/02-filter-greek.png){width=320}
 
-| Objectif | Dans l'appli |
-|----------|--------------|
-| Insérer un symbole | Recherche → mot-clé (« integral ») → entrée → **Copier** → revenir à l'éditeur et coller. |
-| Garder une commande récurrente sous la main | Ouvrir l'entrée → marquer favori → la retrouver dans la vue Favoris. |
-| Apprivoiser un environnement | Catégorie « Environnements » → p. ex. `align` → l'aperçu montre la structure et un exemple d'usage. |
+## Favoris
 
-## Garantie hors ligne
+Marquez d'une étoile les commandes que vous utilisez le plus et elles se regroupent dans les **Favoris** pour un accès en un geste. Cette vue reste courte et personnelle — la poignée de commandes que vous utilisez réellement, sans faire défiler tout le dictionnaire.
 
-Aucune activité réseau. Contenu et recherche sont entièrement locaux.
+![Favoris : vos commandes étoilées au même endroit.](../_screens/0.1.0/03-favorites.png){width=320}
+
+## Aide-mémoire
+
+L'**Aide-mémoire** (Cheatsheet) est une vue d'ensemble dense et lisible d'un coup d'œil de tout le jeu de commandes, regroupé par catégorie — la vue « référence imprimée ». Il échange le détail par carte du Dictionnaire contre l'étendue, pour saisir de nombreuses commandes en un coup d'œil.
+
+![Aide-mémoire : tout le jeu de commandes, regroupé par catégorie.](../_screens/0.1.0/04-cheatsheet.png){width=320}
+
+## À propos
+
+La page **À propos** présente l'appli, son périmètre et la mention que Plume n'a aucune affiliation avec TeX ni le LaTeX Project. Plume est le renommage volontaire de l'ancien EtabliTeX ; les noms TeX/LaTeX relèvent de la TeX License de Knuth et de la LPPL.
+
+![À propos : périmètre et mention de non-affiliation avec TeX.](../_screens/0.1.0/05-about.png){width=320}
 
 ## Distribution
 
-| Canal | App |
-|-------|-----|
-| Android (APK) — version de développement via [GitHub Releases](https://github.com/etabli-dev/etabli-plume/releases) | Établi Plume |
-| App Store (iOS) · Google Play (Android) | prévu — pas encore disponible |
-| F-Droid — dépôt principal | prévu — pas encore disponible |
-| Code source | [`etabli-dev/etabli-plume`](https://github.com/etabli-dev/etabli-plume) |
+Établi Plume v0.1.0 est une **version de développement Android uniquement**, distribuée sous forme d'APK signé via GitHub Releases :
+
+- [Télécharger la v0.1.0 (APK signé)](https://github.com/etabli-dev/etabli-plume/releases/tag/v0.1.0)
+
+Les versions App Store, Google Play et F-Droid sont prévues mais pas encore disponibles. Le code source est hébergé sur [`etabli-dev/etabli-plume`](https://github.com/etabli-dev/etabli-plume).
