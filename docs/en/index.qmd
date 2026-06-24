@@ -1,0 +1,44 @@
+---
+title: "Etabli Plume"
+sidebar: en
+---
+
+<img src="../_icons/icon-plume.svg" alt="" width="80" align="right" style="margin:0 0 1rem 1rem;">
+
+<span class="etabli-badge">Offline tool</span>
+
+> A fast, offline reference for typesetting commands.
+
+Etabli Plume is a categorised reference and snippet picker for LaTeX commands: commands, Greek letters, math operators, formatting, environments and bibliography — with a preview pane and favourites. Fully offline, no external dependencies. App ID `com.raban.etabli.plume`.
+
+![Plume — categories list on Android.](../_screens/android-categories.png){width=320}
+
+> Plume is the deliberate renaming of the former **EtabliTeX**. Not affiliated with the LaTeX Project or TeX; the names TeX/LaTeX are governed by Knuth's TeX License and the LPPL.
+
+## Who benefits
+
+Anyone writing or teaching LaTeX who, on the move, needs to grab the right command, a symbol, or the skeleton of an environment — without firing up a search engine first.
+
+## Platforms
+
+| Platform | Status |
+|----------|--------|
+| iOS      | ✓      |
+| Android  | ✓      |
+
+## Privacy
+
+No analytics, no third-party SDKs. The app runs fully offline; all content is embedded, no accounts, no telemetry.
+
+## Installation
+
+| Platform | Source |
+|----------|--------|
+| iOS      | App Store |
+| Android  | Google Play and F-Droid (main repository) |
+
+Details: see [Getting Started](getting-started.qmd).
+
+## Support
+
+If you find the app useful: [Liberapay](https://liberapay.com/rabanheller/) · inside the app you will also find a Buy-Me-a-Coffee link.

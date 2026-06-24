@@ -1,0 +1,49 @@
+---
+title: "Fonctionnalités"
+sidebar: fr
+---
+
+Plume est pensé comme un outil de consultation : catégories, recherche, aperçu, favoris — rien de plus pour l'usage quotidien.
+
+![Liste des catégories avec navigation hiérarchique.](../_screens/android-categories.png){width=320}
+
+## Catégories de contenu
+
+| Catégorie | Exemples |
+|-----------|----------|
+| **Commandes** | `\textbf`, `\emph`, `\section`, `\label`, `\ref`. |
+| **Lettres grecques** | `\alpha`, `\beta`, `\Gamma`, `\Omega`. |
+| **Opérateurs mathématiques** | `\sum`, `\int`, `\prod`, `\lim`, `\partial`. |
+| **Mise en forme** | Graisses, familles, tailles, listes. |
+| **Environnements** | `equation`, `align`, `itemize`, `enumerate`, `figure`, `table`. |
+| **Bibliographie** | `\cite`, `\bibliography`, `\bibliographystyle` et champs BibTeX usuels. |
+
+## Modules
+
+| Zone | Fonction |
+|------|----------|
+| **Catégories** | Liste hiérarchique des contenus. |
+| **Aperçu** | Commande, description, exemple d'usage — mis en forme lisible même pour les commandes longues. |
+| **Favoris** | Les entrées marquées restent en tête, dans leur propre vue. |
+| **Recherche** | Recherche plein texte sur toutes les entrées. |
+| **Paramètres** | Thème (Clair/Sombre/Système), taille de police. |
+
+## Flux de travail
+
+| Objectif | Dans l'appli |
+|----------|--------------|
+| Insérer un symbole | Recherche → mot-clé (« integral ») → entrée → **Copier** → revenir à l'éditeur et coller. |
+| Garder une commande récurrente sous la main | Ouvrir l'entrée → marquer favori → la retrouver dans la vue Favoris. |
+| Apprivoiser un environnement | Catégorie « Environnements » → p. ex. `align` → l'aperçu montre la structure et un exemple d'usage. |
+
+## Garantie hors ligne
+
+Aucune activité réseau. Contenu et recherche sont entièrement locaux.
+
+## Distribution
+
+| Canal | App |
+|-------|-----|
+| App Store (iOS) · Google Play (Android) | Etabli Plume |
+| F-Droid — dépôt principal | Etabli Plume |
+| Code source | [`etabli-dev/etabli-plume`](https://github.com/etabli-dev/etabli-plume) |

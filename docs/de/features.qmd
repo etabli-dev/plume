@@ -1,0 +1,49 @@
+---
+title: "Funktionen"
+sidebar: de
+---
+
+Plume ist als Nachschlagewerk konzipiert: Kategorien, Suche, Vorschau, Favoriten — mehr braucht es im Alltag nicht.
+
+![Kategorienliste mit hierarchischer Navigation.](../_screens/android-categories.png){width=320}
+
+## Inhaltliche Kategorien
+
+| Kategorie | Beispiele |
+|-----------|-----------|
+| **Befehle** | `\textbf`, `\emph`, `\section`, `\label`, `\ref`. |
+| **Griechische Buchstaben** | `\alpha`, `\beta`, `\Gamma`, `\Omega`. |
+| **Mathe-Operatoren** | `\sum`, `\int`, `\prod`, `\lim`, `\partial`. |
+| **Formatierung** | Schriftstärken, Schriftarten, Größen, Listen. |
+| **Umgebungen** | `equation`, `align`, `itemize`, `enumerate`, `figure`, `table`. |
+| **Bibliographie** | `\cite`, `\bibliography`, `\bibliographystyle` und übliche BibTeX-Felder. |
+
+## Module
+
+| Bereich | Funktion |
+|---------|----------|
+| **Kategorien** | Hierarchische Liste der Inhalte. |
+| **Vorschau** | Befehl, Beschreibung, Anwendungsbeispiel — auch bei langen Befehlen lesbar formatiert. |
+| **Favoriten** | Markierte Einträge bleiben oben in einer eigenen Ansicht. |
+| **Suche** | Volltext-Suche über alle Einträge. |
+| **Einstellungen** | Theme (Hell/Dunkel/System), Schriftgröße. |
+
+## Workflows
+
+| Ziel | Schritte in der App |
+|------|---------------------|
+| Ein Symbol einfügen | Suche → Stichwort („integral") → Eintrag → **Kopieren** → in den Editor wechseln und einfügen. |
+| Wiederkehrenden Befehl griffbereit halten | Eintrag öffnen → Favorit setzen → künftig direkt aus der Favoriten-Ansicht greifen. |
+| Eine Umgebung kennenlernen | Kategorie „Umgebungen" → z.B. `align` → Vorschau zeigt Skelett und Anwendungsbeispiel. |
+
+## Offline-Garantie
+
+Es gibt keine Netzwerkaktivität. Inhalte und Suche laufen vollständig lokal.
+
+## Bezug
+
+| Kanal | App |
+|-------|-----|
+| App Store (iOS) · Google Play (Android) | Etabli Plume |
+| F-Droid — Haupt-Repository | Etabli Plume |
+| Quellcode | [`etabli-dev/etabli-plume`](https://github.com/etabli-dev/etabli-plume) |

@@ -1,0 +1,49 @@
+---
+title: "Features"
+sidebar: en
+---
+
+Plume is designed as a lookup tool: categories, search, preview, favourites — everyday use needs no more.
+
+![Categories list with hierarchical navigation.](../_screens/android-categories.png){width=320}
+
+## Content categories
+
+| Category | Examples |
+|----------|----------|
+| **Commands** | `\textbf`, `\emph`, `\section`, `\label`, `\ref`. |
+| **Greek letters** | `\alpha`, `\beta`, `\Gamma`, `\Omega`. |
+| **Math operators** | `\sum`, `\int`, `\prod`, `\lim`, `\partial`. |
+| **Formatting** | Weights, families, sizes, lists. |
+| **Environments** | `equation`, `align`, `itemize`, `enumerate`, `figure`, `table`. |
+| **Bibliography** | `\cite`, `\bibliography`, `\bibliographystyle` and common BibTeX fields. |
+
+## Modules
+
+| Area | What it does |
+|------|--------------|
+| **Categories** | Hierarchical list of content. |
+| **Preview** | Command, description, usage example — formatted to stay readable even for long commands. |
+| **Favourites** | Marked entries stay at the top in their own view. |
+| **Search** | Full-text search across every entry. |
+| **Settings** | Theme (Light/Dark/System), font size. |
+
+## Workflows
+
+| Goal | In the app |
+|------|------------|
+| Insert a symbol | Search → keyword ("integral") → entry → **Copy** → switch to your editor and paste. |
+| Keep a recurring command at hand | Open entry → mark as favourite → grab it later from the favourites view. |
+| Learn an environment | Category "Environments" → e.g. `align` → preview shows skeleton and usage example. |
+
+## Offline guarantee
+
+No network activity. Content and search are fully local.
+
+## Where to get it
+
+| Channel | App |
+|---------|-----|
+| App Store (iOS) · Google Play (Android) | Etabli Plume |
+| F-Droid — main repository | Etabli Plume |
+| Source code | [`etabli-dev/etabli-plume`](https://github.com/etabli-dev/etabli-plume) |

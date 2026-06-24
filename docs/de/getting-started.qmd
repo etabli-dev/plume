@@ -1,0 +1,28 @@
+---
+title: "Erste Schritte"
+sidebar: de
+---
+
+## Voraussetzungen
+
+- Nur ein iOS- oder Android-Gerät. Keine Anmeldung, kein Konto, kein Internet.
+
+## Einrichtung
+
+1. App aus dem Store installieren und öffnen.
+2. Direkt in der Kategorien-Liste landen — keine Anmeldung.
+
+![Beim Start landest du in der Kategorien-Liste.](../_screens/android-categories.png){width=320}
+
+## Einen Befehl finden
+
+1. **Kategorie auswählen** (z.B. „Mathe-Operatoren").
+2. **Eintrag tippen.** Im Vorschau-Bereich erscheinen Befehl, eine Kurz-Erklärung und ein typisches Anwendungsbeispiel.
+3. **In die Zwischenablage kopieren** — der Befehl steht system-weit zum Einfügen zur Verfügung.
+4. Optional **als Favorit markieren**, damit der Befehl beim nächsten Öffnen oben in der Favoriten-Ansicht steht.
+
+## Hinweise
+
+- Plume ist eine **Referenz**, kein LaTeX-Compiler — es kompiliert keine Dokumente, sondern hilft beim Schreiben.
+- Die Inhalte sind vollständig im App-Bundle enthalten; auch ohne Netz steht alles zur Verfügung.
+- Plume war früher unter dem Namen *EtabliTeX* verfügbar. Die App wurde umbenannt, um keine Affiliation mit TeX/LaTeX zu suggerieren.
